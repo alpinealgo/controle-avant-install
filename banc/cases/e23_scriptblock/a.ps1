@@ -1,0 +1,1 @@
+& ([scriptblock]::Create("Write-Output proof"))

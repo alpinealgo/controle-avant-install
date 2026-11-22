@@ -1,0 +1,1 @@
+call writefile(["proof"], "/tmp/precheck-proof")

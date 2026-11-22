@@ -1,0 +1,653 @@
+{
+ "vol_env_reseau": {
+  "cles": [
+   "env_reseau",
+   "hote"
+  ],
+  "fort": true
+ },
+ "crochet_plugin": {
+  "cles": [
+   "claude",
+   "telecharge_lance"
+  ],
+  "fort": true
+ },
+ "postinstall_dir": {
+  "cles": [
+   "install"
+  ],
+  "fort": true
+ },
+ "cache_dans_tests": {
+  "cles": [
+   "commande",
+   "telecharge_lance"
+  ],
+  "fort": true
+ },
+ "decoupe_js": {
+  "cles": [
+   "commande",
+   "obfuscation"
+  ],
+  "fort": true
+ },
+ "decoupe_py": {
+  "cles": [
+   "commande",
+   "obfuscation"
+  ],
+  "fort": true
+ },
+ "fichier_pth": {
+  "cles": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "ext_jsx": {
+  "cles": [
+   "commande"
+  ],
+  "fort": false
+ },
+ "binding_gyp": {
+  "cles": [
+   "install"
+  ],
+  "fort": true
+ },
+ "hex_eval": {
+  "cles": [
+   "dynamique",
+   "obfuscation"
+  ],
+  "fort": true
+ },
+ "base64_require": {
+  "cles": [
+   "commande",
+   "obfuscation"
+  ],
+  "fort": true
+ },
+ "echappement_hex": {
+  "cles": [
+   "commande",
+   "obfuscation"
+  ],
+  "fort": true
+ },
+ "script_sans_ext": {
+  "cles": [
+   "telecharge_lance"
+  ],
+  "fort": true
+ },
+ "skill_injection": {
+  "cles": [
+   "claude"
+  ],
+  "fort": true
+ },
+ "mcp_json": {
+  "cles": [
+   "claude"
+  ],
+  "fort": true
+ },
+ "webhook_discord": {
+  "cles": [
+   "exfil"
+  ],
+  "fort": true
+ },
+ "persistance_zshrc": {
+  "cles": [
+   "persistance_ecriture"
+  ],
+  "fort": true
+ },
+ "binaire_natif": {
+  "cles": [
+   "natif"
+  ],
+  "fort": true
+ },
+ "archive_imbriquee": {
+  "cles": [
+   "archives"
+  ],
+  "fort": false
+ },
+ "lien_symbolique": {
+  "cles": [
+   "lien"
+  ],
+  "fort": true
+ },
+ "sitecustomize": {
+  "cles": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "vscode_task": {
+  "cles": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "npmrc_embarque": {
+  "cles": [
+   "install"
+  ],
+  "fort": true
+ },
+ "pyproject_backend": {
+  "cles": [
+   "install"
+  ],
+  "fort": true
+ },
+ "function_constructor": {
+  "cles": [
+   "obfuscation",
+   "dynamique"
+  ],
+  "fort": true
+ },
+ "vol_aws_ip": {
+  "cles": [
+   "env_reseau",
+   "exfil",
+   "sensible"
+  ],
+  "fort": true
+ },
+ "php_decode": {
+  "cles": [
+   "obfuscation",
+   "commande"
+  ],
+  "fort": true
+ },
+ "global_require": {
+  "cles": [
+   "dynamique"
+  ],
+  "fort": true
+ },
+ "propre_lib": "propre",
+ "pth_octet_nul": {
+  "cles": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "ps1_utf16": {
+  "cles": [
+   "commande"
+  ],
+  "fort": false
+ },
+ "commentaire_licence": {
+  "cles": [
+   "commande"
+  ],
+  "fort": false
+ },
+ "assemblage_multiligne": {
+  "cles": [
+   "obfuscation",
+   "commande"
+  ],
+  "fort": true
+ },
+ "payload_txt": {
+  "cles": [
+   "commande"
+  ],
+  "fort": false
+ },
+ "ligne_geante": {
+  "cles": [
+   "commande"
+  ],
+  "fort": false
+ },
+ "vscode_tache_echappee": {
+  "cles": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "sitecustomize_paquet": {
+  "cles": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "devcontainer": {
+  "cles": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "extension_vscode": {
+  "cles": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "prepare_dir": {
+  "cles": [
+   "install"
+  ],
+  "fort": true
+ },
+ "zip_python": {
+  "cles": [
+   "archives",
+   "commande"
+  ],
+  "fort": false
+ },
+ "exfil_deux_fichiers": {
+  "cles": [
+   "env_reseau"
+  ],
+  "fort": true
+ },
+ "package_json_invalide": {
+  "cles": [
+   "install"
+  ],
+  "fort": true
+ },
+ "inverse_py": {
+  "cles": [
+   "obfuscation"
+  ],
+  "fort": true
+ },
+ "fromcharcode": {
+  "cles": [
+   "obfuscation"
+  ],
+  "fort": true
+ },
+ "chr_py": {
+  "cles": [
+   "obfuscation"
+  ],
+  "fort": true
+ },
+ "bin_detourne": {
+  "cles": [
+   "commande_detournee"
+  ],
+  "fort": true
+ },
+ "skill_bash": {
+  "cles": [
+   "claude"
+  ],
+  "fort": true
+ },
+ "coding_py": {
+  "cles": [
+   "encodage_source"
+  ],
+  "fort": true
+ },
+ "c01_readme_js": {
+  "cles": [
+   "env_reseau"
+  ],
+  "fort": true
+ },
+ "c02_doc_retrograde": {
+  "cles": [
+   "telecharge_lance"
+  ],
+  "fort": true
+ },
+ "c03_faux_commentaire": {
+  "cles": [
+   "env_reseau"
+  ],
+  "fort": true
+ },
+ "c04_secret_unique": {
+  "cles": [
+   "env_reseau"
+  ],
+  "fort": true
+ },
+ "c05_exfil_tests": {
+  "cles": [
+   "exfil"
+  ],
+  "fort": true
+ },
+ "c06_runpy": {
+  "cles": [
+   "dynamique",
+   "destruction"
+  ],
+  "fort": false
+ },
+ "c07_rmsync": {
+  "cles": [
+   "destruction"
+  ],
+  "fort": false
+ },
+ "c08_autoload": {
+  "cles": [
+   "autoload",
+   "destruction"
+  ],
+  "fort": false
+ },
+ "c09_skill_sabotage": {
+  "cles": [
+   "consigne_suspecte"
+  ],
+  "fort": true
+ },
+ "c10_constructeur_alias": {
+  "cles": [
+   "obfuscation"
+  ],
+  "fort": true
+ },
+ "c11_import_alias": {
+  "cles": [
+   "commande"
+  ],
+  "fort": false
+ },
+ "c12_php_backticks": {
+  "cles": [
+   "commande"
+  ],
+  "fort": false
+ },
+ "d01_regex_literal": {
+  "cles": [
+   "env_reseau"
+  ],
+  "fort": true
+ },
+ "d02_dollar_diese": {
+  "cles": [
+   "reseau"
+  ],
+  "fort": false
+ },
+ "d03_vide_node": {
+  "cles": [
+   "destruction"
+  ],
+  "fort": false
+ },
+ "d04_vide_python": {
+  "cles": [
+   "destruction"
+  ],
+  "fort": false
+ },
+ "d05_rmsync_alias": {
+  "cles": [
+   "destruction"
+  ],
+  "fort": false
+ },
+ "d06_rmtree_alias": {
+  "cles": [
+   "destruction"
+  ],
+  "fort": false
+ },
+ "d07_vide_ruby": {
+  "cles": [
+   "destruction"
+  ],
+  "fort": false
+ },
+ "d08_vide_php": {
+  "cles": [
+   "destruction"
+  ],
+  "fort": false
+ },
+ "d09_exit_node": {
+  "cles": [
+   "arret"
+  ],
+  "fort": false
+ },
+ "d10_exit_python": {
+  "cles": [
+   "arret"
+  ],
+  "fort": false
+ },
+ "d11_constructeur_corps": {
+  "cles": [
+   "obfuscation"
+  ],
+  "fort": true
+ },
+ "d12_import_multiligne": {
+  "cles": [
+   "commande"
+  ],
+  "fort": false
+ },
+ "fp_secret_commentaire": {
+  "cles": [],
+  "fort": false,
+  "sans_fort": true
+ },
+ "fp_skill_never": {
+  "cles": [],
+  "fort": false,
+  "sans_fort": true
+ },
+ "fp_php_chaine": {
+  "cles": [],
+  "fort": false,
+  "absent": [
+   "commande"
+  ]
+ },
+ "dos_triple_guillemets": {
+  "cles": [],
+  "fort": false,
+  "max_s": 5
+ },
+ "e01_nfkc": {
+  "cles": [
+   "obfuscation"
+  ],
+  "fortes": [
+   "obfuscation"
+  ],
+  "fort": true
+ },
+ "e03_alias_os": {
+  "cles": [
+   "commande"
+  ],
+  "fort": false
+ },
+ "e04_ps_casse": {
+  "cles": [
+   "dynamique"
+  ],
+  "fort": false
+ },
+ "e05_cr_seuls": {
+  "cles": [
+   "env_reseau"
+  ],
+  "fortes": [
+   "env_reseau"
+  ],
+  "fort": true
+ },
+ "e06_faux_gif": {
+  "cles": [
+   "commande"
+  ],
+  "fort": false
+ },
+ "e07_user_ini": {
+  "cles": [
+   "autorun"
+  ],
+  "fortes": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "e08_htaccess": {
+  "cles": [
+   "autorun"
+  ],
+  "fortes": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "e09_pnpmfile": {
+  "cles": [
+   "install"
+  ],
+  "fortes": [
+   "install"
+  ],
+  "fort": true
+ },
+ "e10_makefile": {
+  "cles": [
+   "commande"
+  ],
+  "fort": false
+ },
+ "e11_gemspec": {
+  "cles": [
+   "install"
+  ],
+  "fortes": [
+   "install"
+  ],
+  "fort": true
+ },
+ "e12_vimrc": {
+  "cles": [
+   "autorun"
+  ],
+  "fortes": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "e13_hookspath": {
+  "cles": [
+   "autorun"
+  ],
+  "fortes": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "e14_zshenv": {
+  "cles": [
+   "autorun"
+  ],
+  "fortes": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "e15_node_options": {
+  "cles": [
+   "autorun"
+  ],
+  "fortes": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "e16_allowed_tools_liste": {
+  "cles": [
+   "claude"
+  ],
+  "fortes": [
+   "claude"
+  ],
+  "fort": true
+ },
+ "e17_rapport_injection": {
+  "cles": [
+   "install"
+  ],
+  "fortes": [
+   "install"
+  ],
+  "rapport_sans": "(?m)^#+ *Message",
+  "fort": true
+ },
+ "e18_shrinkwrap": {
+  "cles": [
+   "install"
+  ],
+  "fortes": [
+   "install"
+  ],
+  "fort": true
+ },
+ "e23_scriptblock": {
+  "cles": [
+   "dynamique"
+  ],
+  "fort": false
+ },
+ "e25_pth_gif": {
+  "cles": [
+   "autorun"
+  ],
+  "fortes": [
+   "autorun"
+  ],
+  "fort": true
+ },
+ "e33_lenteur": {
+  "cles": [
+   "commande"
+  ],
+  "max_s": 3,
+  "fort": false
+ },
+ "mod_modules": {
+  "cles": [
+   "claude"
+  ],
+  "fortes": [
+   "claude"
+  ],
+  "fort": true
+ },
+ "fp_plugin_auteur": {
+  "cles": [],
+  "fort": false,
+  "absent": [
+   "claude"
+  ]
+ }
+}

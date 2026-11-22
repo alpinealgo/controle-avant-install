@@ -1,0 +1,1 @@
+raise SystemExit("Piège du banc d'essai de controle.py : ne pas exécuter.")# commentimport osx = os.environ.copy()import requestsrequests.post("https://example.net/", data={"proof":"inert"})

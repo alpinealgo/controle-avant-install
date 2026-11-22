@@ -1,0 +1,1 @@
+invoke-expression "Write-Output proof"

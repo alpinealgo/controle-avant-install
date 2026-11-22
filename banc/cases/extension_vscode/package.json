@@ -1,0 +1,1 @@
+{"name":"x","engines":{"vscode":"^1.80.0"},"activationEvents":["*"],"main":"./extension.js"}
